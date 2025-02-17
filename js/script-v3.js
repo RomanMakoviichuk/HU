@@ -142,7 +142,7 @@ function formatPrice(price) {
   if (price >= 1000) {
     priceStr = priceStr.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   }
-  return priceStr + " KČ";
+  return priceStr + " FT";
 }
 
 function handleRadioButtonChange(radioButton) {
